@@ -1,0 +1,168 @@
+html{
+    background-color: black;
+    color: seashell;
+    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+    opacity: .9;
+}
+/*Banner
+need to figure out how to make the top bar fixed*/
+.banner{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    height: 69px;
+    flex-shrink: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+}
+.banner div{
+    color: whitesmoke;
+    flex-basis: 10%;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.logo{
+    margin-right: auto;
+    height: 55px;
+}
+
+/*Mission Section*/
+.mission{
+    background-image: url(../Cozy-Tea/resources/Images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    width: 1200px;
+    color: white;
+    margin: auto;
+}
+.mission h2{
+    margin-bottom: 0px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+h4{
+    margin-top: 0px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/* Tea of the Month- Learn how to shrink size between boxes*/
+.tea-of-month{
+    width: 1000px;
+    margin: auto;
+}
+.tea-of-month p{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.month-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.month-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tea{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+.steeping{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*Locations Box*/
+h3{
+    margin: 0 0;
+}
+.location{
+    height: 600px;
+    width: 1200px;
+    margin: 40px auto;
+    background-image: url(./resources/Images/img-locations-background.jpg);
+}
+.location-header{
+    height: 200px;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end ;
+    margin: auto;
+}
+.location-address{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.location-downtown{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.location-east-bayside{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.location-oakdale{
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Tea Cozy contact and Footer*/
+
+.tea-contact{
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start
+}
+.tea-contact-box{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+footer{
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
